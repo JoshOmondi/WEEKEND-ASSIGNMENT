@@ -20,13 +20,10 @@
 }
 
 .container {
-  /* display: flex;
-    justify-content: center; */
   background-image: url(../images/hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 80vw; */
   height: 100vh;
   margin-left: 75px;
   margin-right: 75px;
@@ -70,13 +67,13 @@ ion-icon {
     padding: 15px;
     background-color: rgb(111, 111, 214);
     color: #fff;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 .lowerbts2 input{
     padding: 15px;
     background-color: transparent;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .card1 {
@@ -84,8 +81,10 @@ ion-icon {
   align-items: center;
   gap: 20px;
 }
-.nav input{
-    padding: 15px;
+.nav button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
     background-color: rgb(69, 69, 173);
 }
 .card {
@@ -96,9 +95,6 @@ ion-icon {
   justify-content: center;
   margin-top: -50px;
   justify-content: space-between;
-  /* margin-left: 300px; */
-  /* margin: 20px; */
-  /* align-items: center; */
 }
 .card > h3 {
   margin-top: 10px;
@@ -121,18 +117,45 @@ ion-icon {
   margin-left: 75px;
   margin-right: 75px;
 }
+.descpt-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.description{
+  display: flex;
+  gap: 20px;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduction h1 {
+  font-size: 50px;
+}
+.introduction p {
+  font-size: 20px;
+}
 .btns {
   display: flex;
-  flex-direction: row;
-  margin-left: 500px;
-  align-items: center;
-  /* margin-bottom: 1200px; */
+  justify-content: center;
+  gap: 20px;
+  color: white;
 }
-.lowerbtns {
-  margin-bottom: 800px;
+.btns button {
+  border-radius: 30px;
+  padding: 20px 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
-.lowerbts2 {
-  margin-bottom: 800px;
+.btn1 {
+  background-color: #23a6f0;
+  border-style: none;
+}
+.btn2 {
+  background-color: transparent;
+  border: 2px solid white;
 }
 .peaceofmind {
   background-color: white;
@@ -147,9 +170,6 @@ ion-icon {
   color: white;
 }
 .container > section {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   margin-bottom: 300px;
   margin-left: 500px;
 }
@@ -166,10 +186,8 @@ ion-icon {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin-top: 25px; */
   margin-bottom: 25px;
   color: black;
-  /* justify-content: space-between; */
 }
 .header > h1 {
   margin-top: 80px;
@@ -183,7 +201,6 @@ ion-icon {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  /* height: 400vh; */
 }
 .pic {
   display: flex;
