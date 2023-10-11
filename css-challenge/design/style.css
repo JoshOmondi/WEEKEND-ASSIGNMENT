@@ -6,7 +6,7 @@
 .main {
   background-color: black;
   color: white;
-  height: 740vh;
+  height: 810vh;
   font-family: Montserrat
 }
 .container8{
@@ -472,6 +472,8 @@ ion-icon {
 @media screen and (max-width:600px){
   .main{
     background-color: rgb(150, 144, 150);
+    display: flex;
+    flex-direction: column;
   }
   .container2 {
   display: flex;
@@ -482,6 +484,7 @@ ion-icon {
   background-color: rgb(110, 77, 77);
   gap: 20px;
   justify-content: center;
+  width: 100%;
   margin-left: 250px;
   margin-left: 75px;
   margin-right: 75px;
@@ -523,5 +526,12 @@ ion-icon {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  }
+  .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  }
 }
